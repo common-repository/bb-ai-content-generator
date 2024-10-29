@@ -1,0 +1,65 @@
+/* css/style.css */
+#progress-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+#progress {
+    display: block;
+    width: 0%;
+    height: 22px;
+    background-color: #659cef;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+}
+
+#progress-status {
+    margin-top: 5px;
+}
+
+#results {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#results h2 {
+    margin-top: 30px;
+    color: #333;
+    border-bottom: 2px solid #659cef;
+    padding-bottom: 10px;
+}
+
+#results h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+#results p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.error {
+    color: #d63638;
+    background-color: #ffebe8;
+    border: 1px solid #d63638;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#create-draft {
+    margin-top: 20px;
+}
